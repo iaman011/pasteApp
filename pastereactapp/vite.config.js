@@ -6,7 +6,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [
     tailwindcss(),
-    require('@tailwindcss/line-clamp'),
+    // require('@tailwindcss/line-clamp')
    
     react()],
 })
